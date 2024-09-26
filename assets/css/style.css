@@ -1,0 +1,76 @@
+.black{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    position:relative;
+    margin-bottom: 2rem;
+   
+}
+
+.green{
+    height: 250px;
+    width: 250px;
+    border:2px dashed green;
+    position:absolute;
+    bottom:2px;
+    right: 2px;
+}
+
+.blue{
+    height: 125px;
+    width: 125px;
+    border:2px dotted blue;
+    position:absolute;
+    top:2px;
+    left: 2px;
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+   
+}
+
+
+/* ----CREEPER----  */
+
+.head{
+    width: 333px;
+    height: 333px;
+    background-color: green;
+    border: 2px solid black;
+    position: relative;
+}
+
+.lefteye{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position:absolute;
+    left:25%;
+    top: 25%;
+}
+
+.righteye{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position:absolute;
+    right:25%;
+    top: 25%;
+}
+
+.mouth{
+    width: 50%;
+    height: 75px;
+    background-color: black;
+    position:absolute;
+    bottom: 25%;
+    left: 25%;
+}
